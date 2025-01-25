@@ -7,6 +7,10 @@ const header = () => {
       <Link href="/">1 задача</Link>
       <Link href="/lessontwo">2 задача</Link>
       <Link href="/lessonthree">3 задача</Link>
+      <Link href="/lessonfour">4 задача</Link>
+      <Link href="/lessonfive">5 задача</Link>
+      <Link href="/lessonsix">6 задача</Link>
+      <Link href="/lessonseven">7 задача</Link>
     </div>
   );
 };
