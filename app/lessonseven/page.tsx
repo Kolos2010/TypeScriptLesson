@@ -11,12 +11,12 @@ function buildModal(
   status: ModalStatus
 ): { text: string; status: ModalStatus } {
   return {
-    text: text,
-    status: status,
+    text,
+    status,
   };
 }
 const modal1 = buildModal("Добро пожаловать", ModalStatus.Opened);
-const modal2 = buildModal("Окно закрыто", ModalStatus.Closed);
+const modal2 = buildModal("Окно закрыто. Скоро откроемся", ModalStatus.Closed);
 
 const page = () => {
   console.log(modal1);

@@ -11,6 +11,9 @@ const header = () => {
       <Link href="/lessonfive">5 задача</Link>
       <Link href="/lessonsix">6 задача</Link>
       <Link href="/lessonseven">7 задача</Link>
+      <Link href="/lessoneight">8 задача</Link>
+      <Link href="/lessonnine">9 задача</Link>
+      <Link href="/lessonten">10 задача</Link>
     </div>
   );
 };
